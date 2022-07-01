@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <h1>Statistical Poem Generator<img src='poetrythumbnail.png' alt="Image failed to display"></img></h1>
+        </div>
       </header>
+      
+      <body className="App-body">
+          <div>
+            <form>
+              <label>
+                <input type="text" name="Text" />
+              </label><div></div>
+                <input type="submit" value="Generate" />
+            </form>
+          </div>
+      </body>
     </div>
   );
 }
