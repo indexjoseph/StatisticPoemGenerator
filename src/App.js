@@ -6,10 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <h1>Statistical Poem Generator<img src='poetrythumbnail.png' alt="Image failed to display"></img></h1>
+          <h1> <img src="https://cdn-icons-png.flaticon.com/512/2505/2505737.png" height="55" width="75" class="center"></img> <></> Statistical Poem Generator</h1>
         </div>
-      </header>
-      
+      </header>  
       <body className="App-body">
           <div>
             <form>
